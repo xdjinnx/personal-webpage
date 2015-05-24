@@ -1,0 +1,74 @@
+/*
+* {
+  -webkit-transition: all 1s;
+}
+*/
+
+html {
+  background: #333333;
+}
+
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.crocked, a {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+.crocked {
+  background: white;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: monospace;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,1);
+  outline: 0;
+}
+
+.sec-crock {
+  -webkit-transform: rotateY(-10deg);
+  -webkit-transform-origin: right;
+  -moz-transform: rotateY(-10deg);
+  -moz-transform-origin: right;
+  -o-transform: rotateY(-10deg);
+  -o-transform-origin: right;
+  transform: rotateY(-10deg);
+  transform-origin: right;
+}
+
+.first-crock { 
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+  -moz-transform: rotateY(10deg);
+  -moz-transform-origin: left;
+  -o-transform: rotateY(10deg);
+  -o-transform-origin: left;
+  transform: rotateY(10deg);
+  transform-origin: left;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+canvas {
+  border: none !important;
+}
+
+.cv {
+  display: none;
+  justify-content: center;
+  -webkit-perspective: 2000px;
+  -moz-perspective: 2000px;
+  -o-perspective: 2000px;
+  perspective: 2000px;
+}
+
+/*
+ pre:hover{
+   box-shadow: 0px 0px 40px 5px rgba(255,117,107,0.8);
+ }
+*/
