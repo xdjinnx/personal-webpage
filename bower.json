@@ -1,7 +1,7 @@
 {
   "name": "personal-page",
   "version": "0.0.1",
-  "homepage": "https://www.mysliceofpi.se",
+  "homepage": "https://www.peterlundberg.se",
   "private": true,
   "ignore": [
     "**/.*",
@@ -11,6 +11,7 @@
     "tests"
   ],
   "dependencies": {
-    "pdfjs-dist": "~1.1.288"
+    "pdfjs-dist": "~1.1.288",
+    "CV": "git@github.com:xdjinnx/CV.git"
   }
 }

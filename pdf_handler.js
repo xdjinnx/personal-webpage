@@ -13,7 +13,7 @@ if(w < h) {
   pdfSize = 0.98;
 }
 
-PDFJS.getDocument('CV.pdf').then(function(pdf) {
+PDFJS.getDocument('bower_components/CV/CV.pdf').then(function(pdf) {
 
   pdf.getPage(1).then(function(page) {
 
