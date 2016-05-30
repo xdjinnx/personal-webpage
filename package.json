@@ -1,0 +1,9 @@
+{
+  "name": "personal-page",
+  "version": "1.0.0",
+  "dependencies": {
+    "pdfjs-dist": "~1.5.279",
+    "CV": "xdjinnx/CV"
+  },
+  "homepage": "https://www.peterlundberg.se"
+}
