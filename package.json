@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "dependencies": {
     "pdfjs-dist": "~1.5.279",
-    "CV": "xdjinnx/CV"
+    "napa": "2.3.0"
+  },
+  "scripts": {
+    "install": "napa xdjinnx/CV"
   },
   "homepage": "https://www.peterlundberg.se"
 }
